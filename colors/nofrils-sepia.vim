@@ -22,7 +22,7 @@ if !exists("g:nofrils_heavylinenumbers")
 endif
 
 " Baseline
-hi Normal term=NONE cterm=NONE ctermfg=black ctermbg=223 gui=NONE guifg=#000000 guibg=#ffdfaf
+hi Normal term=NONE cterm=NONE ctermfg=black ctermbg=223 gui=NONE guifg=#839496 guibg=#ffdfaf
 
 " Faded
 hi ColorColumn term=NONE cterm=NONE ctermfg=NONE ctermbg=253 gui=NONE guifg=NONE guibg=#DADADA
@@ -131,7 +131,7 @@ hi SneakStreakTarget term=NONE cterm=NONE ctermfg=fg ctermbg=green gui=NONE guif
 " Helper Functions
 function! NofrilsFocusComments()
     hi Comment term=NONE cterm=NONE ctermfg=black ctermbg=NONE gui=NONE guifg=#af8700 guibg=NONE
-    hi Normal term=NONE cterm=NONE ctermfg=136 ctermbg=223 gui=NONE guifg=#000000 guibg=#ffdfaf
+    hi Normal term=NONE cterm=NONE ctermfg=136 ctermbg=223 gui=NONE guifg=#839496 guibg=#ffdfaf
     hi LineNr term=NONE cterm=NONE ctermfg=136 ctermbg=bg gui=NONE guifg=#af8700 guibg=NONE
     hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
     hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
@@ -143,7 +143,7 @@ endfunction
 
 function! NofrilsFocusCode()
     hi Comment term=NONE cterm=NONE ctermfg=136 ctermbg=NONE gui=NONE guifg=#af8700 guibg=NONE
-    hi Normal term=NONE cterm=NONE ctermfg=black ctermbg=223 gui=NONE guifg=#000000 guibg=#ffdfaf
+    hi Normal term=NONE cterm=NONE ctermfg=black ctermbg=223 gui=NONE guifg=#839496 guibg=#ffdfaf
     hi LineNr term=NONE cterm=NONE ctermfg=136 ctermbg=bg gui=NONE guifg=#af8700 guibg=NONE
     hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
     hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
@@ -156,7 +156,7 @@ endfunction
 
 function! NofrilsNormal()
     hi Comment term=NONE cterm=NONE ctermfg=136 ctermbg=NONE gui=NONE guifg=#af8700 guibg=NONE
-    hi Normal term=NONE cterm=NONE ctermfg=black ctermbg=223 gui=NONE guifg=#000000 guibg=#ffdfaf
+    hi Normal term=NONE cterm=NONE ctermfg=black ctermbg=223 gui=NONE guifg=#839496 guibg=#ffdfaf
     hi LineNr term=NONE cterm=NONE ctermfg=136 ctermbg=bg gui=NONE guifg=#af8700 guibg=NONE
     hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
     hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
