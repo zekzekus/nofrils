@@ -22,7 +22,7 @@ if !exists("g:nofrils_heavylinenumbers")
 endif
 
 " Baseline
-hi Normal term=NONE cterm=NONE ctermfg=255 ctermbg=235 gui=NONE guifg=#eeeeee guibg=#262626
+hi Normal term=NONE cterm=NONE ctermfg=255 ctermbg=235 gui=NONE guifg=#839496 guibg=#262626
 
 " Faded
 hi ColorColumn term=NONE cterm=NONE ctermfg=NONE ctermbg=236 gui=NONE guifg=NONE guibg=#303030
@@ -131,7 +131,7 @@ hi SneakStreakTarget term=NONE cterm=NONE ctermfg=black ctermbg=green gui=NONE g
 " Helper Functions
 function! NofrilsFocusComments()
     hi Comment term=NONE cterm=NONE ctermfg=255 ctermbg=235 gui=NONE guifg=#eeeeee guibg=#262626
-    hi Normal term=NONE cterm=NONE ctermfg=242 ctermbg=235 gui=NONE guifg=#eeeeee guibg=#262626
+    hi Normal term=NONE cterm=NONE ctermfg=242 ctermbg=235 gui=NONE guifg=#839496 guibg=#262626
     hi LineNr term=NONE cterm=NONE ctermfg=8 ctermbg=bg gui=NONE guifg=#808080 guibg=bg
     hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
     hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
@@ -143,7 +143,7 @@ endfunction
 
 function! NofrilsFocusCode()
     hi Comment term=NONE cterm=NONE ctermfg=242 ctermbg=235 gui=NONE guifg=#eeeeee guibg=#262626
-    hi Normal term=NONE cterm=NONE ctermfg=255 ctermbg=235 gui=NONE guifg=#eeeeee guibg=#262626
+    hi Normal term=NONE cterm=NONE ctermfg=255 ctermbg=235 gui=NONE guifg=#839496 guibg=#262626
     hi LineNr term=NONE cterm=NONE ctermfg=8 ctermbg=bg gui=NONE guifg=#808080 guibg=bg
     hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
     hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
@@ -156,7 +156,7 @@ endfunction
 
 function! NofrilsNormal()
     hi Comment term=NONE cterm=NONE ctermfg=242 ctermbg=NONE gui=NONE guifg=#6C6C6C guibg=NONE
-    hi Normal term=NONE cterm=NONE ctermfg=255 ctermbg=235 gui=NONE guifg=#eeeeee guibg=#262626
+    hi Normal term=NONE cterm=NONE ctermfg=255 ctermbg=235 gui=NONE guifg=#839496 guibg=#262626
     hi LineNr term=NONE cterm=NONE ctermfg=8 ctermbg=bg gui=NONE guifg=#808080 guibg=bg
     hi Character term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
     hi String term=NONE cterm=NONE ctermfg=NONE ctermbg=NONE gui=NONE guifg=NONE guibg=NONE
