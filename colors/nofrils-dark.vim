@@ -5,19 +5,19 @@
 " License: OSI approved MIT license
 
 hi clear
-if exists("syntax_on")
+if exists('syntax_on')
     syntax reset
 endif
 
-let g:colors_name = "nofrils-dark"
+let g:colors_name = 'nofrils-dark'
 
-if !exists("g:nofrils_strbackgrounds")
+if !exists('g:nofrils_strbackgrounds')
     let g:nofrils_strbackgrounds = 0
 endif
-if !exists("g:nofrils_heavycomments")
+if !exists('g:nofrils_heavycomments')
     let g:nofrils_heavycomments = 0
 endif
-if !exists("g:nofrils_heavylinenumbers")
+if !exists('g:nofrils_heavylinenumbers')
     let g:nofrils_heavylinenumbers = 0
 endif
 
